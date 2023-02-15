@@ -3,7 +3,7 @@
  
 
 var missingNumber = function(nums) {
-    let sorted = nums.sort()
+    let sorted = nums.sort((a,b) => a-b)
     console.log(sorted)
     console.log(sorted[0])
     console.log(sorted[1] + 1)
